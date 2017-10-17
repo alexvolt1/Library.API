@@ -80,9 +80,9 @@ namespace Library.API
 
 
 
-            // ********************
+            // *********************
             // Setup CORS
-            // ********************
+            // *********************
             var corsBuilder = new CorsPolicyBuilder();
             corsBuilder.AllowAnyHeader();
             corsBuilder.AllowAnyMethod();
